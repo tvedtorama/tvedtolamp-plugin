@@ -6,4 +6,4 @@ export const PLATFORM_NAME = 'TvedtolampPlatform';
 /**
  * This must match the name of your plugin as defined the package.json
  */
-export const PLUGIN_NAME = 'tvedtolamp';
+export const PLUGIN_NAME = 'homebridge-tvedtolamp';
