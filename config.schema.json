@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "TvedtolampPlatform",
   "pluginType": "platform",
   "singular": true,
   "schema": {

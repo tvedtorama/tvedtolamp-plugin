@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
-  "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "displayName": "Tvedtolamp Plugin",
+  "name": "tvedtolamp",
+  "version": "0.0.1",
+  "description": "Controls the tvedtolamp lamp",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git://github.com/tvedtorama/tvedtolamp-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/tvedtorama/tvedtolamp-plugin/issues"
   },
   "engines": {
     "node": ">=14.18.1",
