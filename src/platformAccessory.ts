@@ -87,7 +87,8 @@ export class ExamplePlatformAccessory {
   async setOn(value: CharacteristicValue) {
     // implement your own code to turn your device on/off
     this.exampleStates.On = value as boolean;
-    await write(255)
+    const res = await write(this.exampleStates.On ? 128 : 0)
+    this.platform.log.info('Result', res.data);
 
     this.platform.log.debug('Set Characteristic On ->', value);
   }
@@ -124,7 +125,7 @@ export class ExamplePlatformAccessory {
   async setBrightness(value: CharacteristicValue) {
     // implement your own code to set the brightness
     this.exampleStates.Brightness = value as number;
-    await write(this.exampleStates.Brightness * 255 / 100)
+    await write(Math.round(this.exampleStates.Brightness * 255 / 100))
 
     this.platform.log.debug('Set Characteristic Brightness -> ', value);
   }

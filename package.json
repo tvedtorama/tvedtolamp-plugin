@@ -2,7 +2,7 @@
   "private": true,
   "displayName": "Tvedtolamp Plugin",
   "name": "homebridge-tvedtolamp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Controls the tvedtolamp lamp",
   "license": "Apache-2.0",
   "repository": {
